@@ -1,0 +1,1171 @@
+*{font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}
+.upWhitePage{
+    width: 100%;
+    background-color: white;
+    height: 64px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    box-shadow: rgba(14, 23, 36, 0.1) 0px 10px 10px -7px;
+}
+.upWhitePageIn{
+    margin: 0px 350px 0px 350px;
+    display: flex;
+    height: 64px;
+    padding-left: 12px;
+    padding-right: 12px;
+    justify-content: space-between;
+}
+.upWhitePageInLeft{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 130px;
+}
+.nasılCalisir{
+    width: 140px;
+    text-align: center;
+    color: #000;
+}
+.nasılCalisir:hover{
+    width: 140px;
+    text-align: center;
+    color: #139FF0;
+}
+.isArama{
+    width: 90px;
+    text-align: center;
+    color: #000;
+}
+.isArama:hover{
+    width: 90px;
+    text-align: center;
+    color: #139FF0;
+}
+.upWhitePageInRight{
+    display: flex;
+    align-items: center;
+}
+.girisYapmak{
+    width: 140px;
+    text-align: center;
+    color: #000;
+}
+.girisYapmak:hover{
+    width: 140px;
+    text-align: center;
+    color: #139FF0;
+}
+.uyeOlmak{
+    width: 120px;
+    text-align: center;
+    color: #000;
+}
+.uyeOlmak:hover{
+    width: 120px;
+    text-align: center;
+    color: #139FF0;
+}
+.projectButton{
+    margin-left: 10px;
+    width: 115px;
+    height: 36px;
+    background: #f20091;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.projectButton:hover{
+    margin-left: 10px;
+    width: 115px;
+    height: 36px;
+    background: #ca0e7f;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.projectButtonIn{
+    color: #fff;
+}
+.upWhitePageInIn{
+    width: 100%;
+    height: 64px;
+}
+.options{
+    width: 100%;
+    background-color: rgb(14, 23, 36);
+    height: 48px;
+}
+.optionsIn{
+    margin: 0px 350px 0px 350px;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.isBul{
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.isBul:hover{
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    background-color: rgb(42, 49, 59);
+}
+.serbestCalisanlariIşeAlin{
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.serbestCalisanlariIşeAlin:hover{
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    background-color: rgb(42, 49, 59);
+}
+.fikirEdinmek{
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.fikirEdinmek:hover{
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    background-color: rgb(42, 49, 59);
+}
+.hakkinda{
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.hakkinda:hover{
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    background-color: rgb(42, 49, 59);
+}
+.kaynaklar{
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.kaynaklar:hover{
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    background-color: rgb(42, 49, 59);
+}
+.videos{
+    position: relative;
+    z-index: 0;
+}
+.videoGenel{
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+.videosIn{
+    position: absolute;
+    z-index: 1;
+    top: 320px;
+    margin-left: 364px;
+}
+.videosWrites{
+    color: #fff;
+    margin: 0;
+}
+.videosWritesH1{
+    font-size: 49px;
+    margin-bottom: 20px;
+}
+.videosWritesLists{
+    height: 24px;
+}
+.videosButtons{
+    display: flex;
+    margin-top: 95px;
+    gap: 17px;
+}
+.videosButtons1{
+    width: 250px;
+    height: 55px;
+    background: #f20091;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.videosButtons1:hover{
+    width: 250px;
+    height: 55px;
+    background: #ca0e7f;
+}
+.videosButtons1In{
+    color: #fff;
+}
+.videosButtons2{
+    width: 360px;
+    height: 55px;
+    background: none;
+    border-color: #fff;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.videosButtons2:hover{
+    width: 360px;
+    height: 55px;
+    background: rgba(221, 211, 211, 0.144);
+}
+.videosButtons2In{
+    color: #fff;
+}
+.videoLowerWriteResim{
+    width: 100%;
+}
+.yapilmasiGerekenler{
+    margin: 0px 365px 0px 365px;
+}
+.yapilmasiGerekenlerH1{
+    font-size: 48px;
+    margin-top: 80px;
+}
+.yapilmasiGerekenlerBolumler{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.iseBasvur{
+    width: 25%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-top: 12px;
+}
+.iseBasvurUst{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.iseBasvurYazi{
+    margin-top: 48px;
+    font-size: 18px;
+}
+.serbestCalisanlarisecin{
+    width: 25%;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.serbestCalisanlarisecinUst{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.serbestCalisanlarisecinYazi{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.guvenleOdeyin{
+    width: 25%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-top: 13px;
+}
+.guvenleOdeyinUst{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.guvenleOdeyinYazi{
+    margin-top: 46px;
+    font-size: 18px;
+}
+.yardımEtmekIcinBuradayiz{
+    width: 25%;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.yardımEtmekIcinBuradayizUst{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.yardımEtmekIcinBuradayizYazi{
+    margin-top: 28px;
+    font-size: 18px;
+}
+.bununNesiHarikaUstCizgisi{
+    margin: 120px 365px 0px 365px;
+}
+.bununNesiHarika{
+    margin: 0px 365px 0px 365px;
+}
+.bununNesiHarikaH1{
+    font-size: 48px;
+    margin-top: 80px;
+}
+.bununNesiHarikaBolumler{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.portfoyleregozatin{
+    width: 25%;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.portfoyleregozatinUst{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.portfoyleregozatinYazi{
+    margin-top: 28px;
+    font-size: 18px;
+}
+.hizliTeklifler{
+    width: 25%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-top: 13px;
+}
+.hizliTekliflerUst{
+    display: flex;
+    gap: 10px;
+}
+.hizliTekliflerYazi{
+    margin-top: 40px;
+    font-size: 18px;
+}
+.kaliteliIs{
+    width: 25%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-top: 12px;
+}
+.kaliteliIsUst{
+    display: flex;
+    gap: 10px;
+}
+.kaliteliIsYazi{
+    margin-top: 40px;
+    font-size: 18px;
+}
+.ilerlemeyiTakipEt{
+    width: 25%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-top: 13px;
+}
+.ilerlemeyiTakipEtUst{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ilerlemeyiTakipEtYazi{
+    margin-top: 41px;
+    font-size: 18px;
+}
+.freelancerilegerceklestirinUstCizgisi{
+    margin: 120px 365px 0px 365px;
+}
+.freelancerIleIlhamAlin{
+    margin: 120px 365px 0px 365px;
+}
+.freelancerIleIlhamAlinH1{
+    font-size: 48px;
+    margin-top: 80px;
+}
+.freelancerIleIlhamAlinAltBaslik{
+    font-size: 24px;
+}
+.ilanlarSatirlar{
+    margin-bottom: 32px;
+}
+.ilanlarBirinciSatir{
+    display: flex;
+    width: 100%;
+}
+.ilanlarBirinciSatirBirinciBolum{
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarBirinciSatirResimBir{
+    position: relative;
+    transition: all 200ms;
+    width: 280px;
+    height: 200px;
+}
+.ilanlarBirinciSatirResimBir:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarBirinciSatirBirinciBolumYazisi{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarBirinciSatirIkinciBolum{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarBirinciSatirResimIki{
+    position: relative;
+    transition: all 200ms;
+    width:280px;
+    height:200px;
+}
+.ilanlarBirinciSatirResimIki:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarBirinciSatirIkinciBolumYazisi{
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarBirinciSatirUcuncuBolum{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarBirinciSatirResimUc{
+    position: relative;
+    transition: all 200ms;
+    width:280px;
+    height:200px;
+}
+.ilanlarBirinciSatirResimUc:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarBirinciSatirUcuncuBolumYazisi{
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarBirinciSatirDorduncuBolum{
+    margin-left: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarBirinciSatirResimDort{
+    position: relative;
+    transition: all 200ms;
+    width:280px;
+    height:200px;
+}
+.ilanlarBirinciSatirResimDort:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarBirinciSatirDorduncuBolumYazisi{
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarIkinciSatir{
+    display: flex;
+    width: 100%;
+}
+.ilanlarIkinciSatirBirinciBolum{
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarIkinciSatirResimBir{
+    position: relative;
+    transition: all 200ms;
+    width: 280px;
+    height: 200px;
+}
+.ilanlarIkinciSatirResimBir:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarIkinciSatirBirinciBolumYazisi{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarIkinciSatirIkinciBolum{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarIkinciSatirResimIki{
+    position: relative;
+    transition: all 200ms;
+    width: 280px;
+    height: 200px;
+}
+.ilanlarIkinciSatirResimIki:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarIkinciSatirIkinciBolumYazisi{
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarIkinciSatirUcuncuBolum{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarIkinciSatirResimUc{
+    position: relative;
+    transition: all 200ms;
+    width: 280px;
+    height: 200px;
+}
+.ilanlarIkinciSatirResimUc:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarIkinciSatirUcuncuBolumYazisi{
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarIkinciSatirDorduncuBolum{
+    margin-left: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarIkinciSatirResimDort{
+    position: relative;
+    transition: all 200ms;
+    width: 280px;
+    height: 200px;
+}
+.ilanlarIkinciSatirResimDort:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarIkinciSatirDorduncuBolumYazisi{
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarUcuncuSatir{
+    display: flex;
+    width: 100%;
+}
+.ilanlarUcuncuSatirBirinciBolum{
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarUcuncuSatirResimBir{
+    position: relative;
+    transition: all 200ms;
+    width: 280px;
+    height: 200px;
+}
+.ilanlarUcuncuSatirResimBir:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarUcuncuSatirBirinciBolumYazisi{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarUcuncuSatirIkinciBolum{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarUcuncuSatirResimIki{
+    position: relative;
+    transition: all 200ms;
+    width: 280px;
+    height: 200px;
+}
+.ilanlarUcuncuSatirResimIki:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarUcuncuSatirIkinciBolumYazisi{
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarUcuncuSatirUcuncuBolum{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarUcuncuSatirResimUc{
+    position: relative;
+    transition: all 200ms;
+    width: 280px;
+    height: 200px;
+}
+.ilanlarUcuncuSatirResimUc:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarUcuncuSatirUcuncuBolumYazisi{
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarUcuncuSatirDorduncuBolum{
+    margin-left: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarUcuncuSatirResimDort{
+    position: relative;
+    transition: all 200ms;
+    width: 280px;
+    height: 200px;
+}
+.ilanlarUcuncuSatirResimDort:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarUcuncuSatirDorduncuBolumYazisi{
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarDorduncuSatir{
+    display: flex;
+    width: 100%;
+}
+.ilanlarDorduncuSatirBirinciBolum{
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarDorduncuSatirResimBir{
+    position: relative;
+    transition: all 200ms;
+    width: 280px;
+    height: 200px;
+}
+.ilanlarDorduncuSatirResimBir:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarDorduncuSatirBirinciBolumYazisi{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarDorduncuSatirIkinciBolum{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarDorduncuSatirResimIki{
+    position: relative;
+    transition: all 200ms;
+    width: 280px;
+    height: 200px;
+}
+.ilanlarDorduncuSatirResimIki:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarDorduncuSatirIkinciBolumYazisi{
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarDorduncuSatirUcuncuBolum{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarDorduncuSatirResimUc{
+    position: relative;
+    transition: all 200ms;
+    width: 280px;
+    height: 200px;
+}
+.ilanlarDorduncuSatirResimUc:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarDorduncuSatirUcuncuBolumYazisi{
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ilanlarDorduncuSatirDorduncuBolum{
+    margin-left: 12px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+.ilanlarDorduncuSatirResimDort{
+    position: relative;
+    transition: all 200ms;
+    width: 280px;
+    height: 200px;
+}
+.ilanlarDorduncuSatirResimDort:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.ilanlarDorduncuSatirDorduncuBolumYazisi{
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.dahaFazlaProjeGoruntule{
+    display: flex;
+    justify-content: center;
+}
+.dahaFazlaProjeGoruntuleButonu{
+    width: 290px;
+    height: 45px;
+    background: #f20091;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.dahaFazlaProjeGoruntuleButonu:hover{
+    width: 290px;
+    height: 45px;
+    background: #ca0e7f;
+}
+.dahaFazlaProjeGoruntuleButonuIn{
+    color: #fff;
+}
+.kategorilerinUstCizgisi{
+    margin: 100px 365px 0px 365px;
+}
+.kategoriler{
+    margin: 95px 365px 0px 365px;
+}
+.kategorilerH1{
+    font-size: 48px;
+    margin-top: 80px;
+}
+.kategorilerResim{
+    margin-top: 50px;
+}
+.enAltResimler{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    margin-top: 70px;
+}
+.solResim{
+    width: 50%;
+    position: relative;
+    z-index: 0;
+}
+.sagResim{
+    width: 50%;
+    position: relative;
+    z-index: 0;
+}
+.solSagResimYazilar{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 720px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.solResimYazisi{
+    color: #fff;
+}
+.solResimYazisiBir{
+    margin: 0px;
+    font-size: 32px;
+}
+.solResimYazisiIki{
+    font-size: 48px;
+    margin: 0px;
+}
+.solResimYazisiUc{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.solResimYazisiButon{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background: #f20091;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.solResimYazisiButon:hover{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background: #ca0e7f;
+}
+.solResimYazisiButonIn{
+    color: #fff;
+}
+.sagResimYazisi{
+    color: #fff;
+    width: 500px;
+}
+.sagResimYazisiBir{
+    margin: 0px;
+    font-size: 32px;
+}
+.sagResimYazisiIki{
+    font-size: 48px;
+    margin: 0px;
+}
+.sagResimYazisiUc{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.sagResimYazisiButon{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background: #f20091;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sagResimYazisiButon:hover{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background: #ca0e7f;
+}
+.sagResimYazisiButonIn{
+    color: #fff;
+}
+.footer{
+    background: #161e2c;
+    width: 100%;
+    height: 570px;
+}
+.footerIn{
+    margin: 0px 365px 0px 365px;
+    padding-top: 30px;
+}
+.footerInDivs{
+    display: flex;
+}
+.footerIn1Div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.footerIn1Div1{
+    display: flex;
+}
+.kucukLogo{
+    width: 130px;
+    height: 40px;
+}
+.footerIn1Div1{
+    padding-top: 20px;
+}
+.world{
+    height: 30px;
+    width: 25px;
+    margin-right: 10px;
+}
+.uluslararasi{
+    color: #fff;
+    font-size: 14px;
+}
+.uluslararasi:hover{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.footerIn1Div2{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.yardim{
+    height: 30px;
+    width: 25px;
+    margin-right: 10px;
+}
+.yardimDestegi{
+    color: #fff;
+    font-size: 14px;
+}
+.yardimDestegi:hover{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.footerIn2Div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-bottom: 70px;
+}
+.serbestH2{
+    color: #fff;
+    font-size: 17px;
+}
+.serbestCalisanlar{
+    color: rgb(192, 184, 184);
+    font-size: 14px;
+    padding-top: 7px;
+}
+.serbestCalisanlar:hover{
+    color: rgb(230, 219, 219);
+    font-size: 14px;
+    padding-top: 7px;
+    text-decoration: underline;
+}
+.footerIn3Div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.hakkındaH2{
+    color: #fff;
+    font-size: 17px;
+}
+.hakkındalar{
+    color: rgb(192, 184, 184);
+    font-size: 14px;
+    padding-top: 7px;
+}
+.hakkındalar:hover{
+    color: rgb(230, 219, 219);
+    font-size: 14px;
+    padding-top: 7px;
+    text-decoration: underline;
+}
+.footerIn4Div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.sartlarH2{
+    color: #fff;
+    font-size: 17px;
+}
+.sartlar{
+    color: rgb(192, 184, 184);
+    font-size: 14px;
+    padding-top: 7px;
+}
+.sartlar:hover{
+    color: rgb(230, 219, 219);
+    font-size: 14px;
+    padding-top: 7px;
+    text-decoration: underline;
+}
+.footerIn5Div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.ortaklarH2{
+    color: #fff;
+    font-size: 17px;
+}
+.ortaklar{
+    color: rgb(192, 184, 184);
+    font-size: 14px;
+    padding-top: 7px;
+}
+.ortaklar:hover{
+    color: rgb(230, 219, 219);
+    font-size: 14px;
+    padding-top: 7px;
+    text-decoration: underline;
+}
+.footerIn6Div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.uygulamalarH2{
+    color: #fff;
+    font-size: 17px;
+}
+.footerLogolar{
+    padding-top: 10px;
+}
+.footerInAltKisim{
+    display: flex;
+}
+.altSol{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding-left: 15px;
+}
+.kayitliKullaniciSayi{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.kayitliKullaniciYazi{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 0px;
+}
+.altOrta{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+.toplamIsSayi{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.toplamIsYazi{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 0px;
+}
+.altSag{
+    padding-left: 10px;
+}
+.altSagYazi{
+    color: #fff;
+    font-size: 11px;
+}
